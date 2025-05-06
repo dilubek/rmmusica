@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loja Musical - RM</title>
+  <link rel="icon" href="images/logo.png" type="image/png" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+  <link rel="manifest" href="manifest.json" />
+<link rel="apple-touch-icon" href="images/logo-192.png" />
+<meta name="theme-color" content="#111111" />
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <img src="images/logo.png" alt="Logo RM" class="logo">
+      <h1>Loja Musical RM</h1>
+    </div>
+    <nav>
+      <ul id="instrument-menu">
+        <li data-instrument="violino">Violino</li>
+        <li data-instrument="saxofone">Saxofone</li>
+        <li data-instrument="clarineta">Clarineta</li>
+        <li data-instrument="tuba">Tuba</li>
+        <li data-instrument="trombone">Trombone</li>
+        <li data-instrument="acordeon">Acordeon</li>
+      </ul>
+    </nav>
+    <div class="social-links">
+      <a href="https://wa.me/11997962471" target="_blank" title="WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#f0e4d7" viewBox="0 0 24 24"><path d="M12.004 2.003c-5.513 0-9.997 4.483-9.997 9.997a9.933 9.933 0 0 0 1.362 5.022l-1.442 5.283 5.428-1.419a9.977 9.977 0 0 0 4.648 1.18c5.514 0 9.997-4.484 9.997-9.997 0-5.514-4.483-9.997-9.997-9.997zm0 18.334a8.29 8.29 0 0 1-4.221-1.156l-.303-.18-3.219.842.864-3.124-.198-.322a8.29 8.29 0 0 1-1.263-4.388c0-4.596 3.737-8.334 8.34-8.334 4.596 0 8.334 3.738 8.334 8.334s-3.738 8.328-8.334 8.328zm4.596-6.203c-.252-.126-1.487-.733-1.718-.815-.23-.084-.397-.126-.564.126s-.648.814-.794.983c-.146.168-.293.189-.545.063-.252-.127-1.066-.392-2.03-1.25-.75-.67-1.255-1.497-1.402-1.75-.147-.252-.016-.389.11-.515.112-.111.252-.293.378-.439.127-.146.168-.252.252-.42.084-.168.042-.315-.021-.439-.063-.127-.564-1.36-.773-1.864-.205-.493-.413-.426-.565-.434l-.48-.009c-.167 0-.439.063-.67.293-.23.231-.882.861-.882 2.1 0 1.237.903 2.433 1.03 2.6.127.168 1.778 2.718 4.312 3.808.603.26 1.072.414 1.438.53.604.192 1.154.165 1.59.1.485-.072 1.487-.608 1.697-1.197.21-.588.21-1.094.147-1.198-.063-.104-.23-.168-.482-.293z"/></svg>
+      </a>
+      <a href="https://instagram.com/digo_hms" target="_blank" title="Instagram">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#f0e4d7" viewBox="0 0 24 24"><path d="M7 2C4.243 2 2 4.243 2 7v10c0 2.757 2.243 5 5 5h10c2.757 0 5-2.243 5-5V7c0-2.757-2.243-5-5-5H7zm10 2c1.654 0 3 1.346 3 3v10c0 1.654-1.346 3-3 3H7c-1.654 0-3-1.346-3-3V7c0-1.654 1.346-3 3-3h10zm-5 3a5 5 0 100 10 5 5 0 000-10zm0 2c1.654 0 3 1.346 3 3s-1.346 3-3 3-3-1.346-3-3 1.346-3 3-3zm4.5-.5a1.5 1.5 0 110 3 1.5 1.5 0 010-3z"/></svg>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section id="slider" class="slider">
+      <img id="slider-image" src="images/violino.png" alt="Instrumento destaque">
+      <div class="instrument-info">
+        <h2 id="slider-title">Violino</h2>
+        <p id="slider-description">Instrumento clássico de cordas. Ideal para iniciantes e profissionais.</p>
+        <p class="price">R$ 1.500,00</p>
+      </div>
+    </section>
+
+    <section id="content" style="display: none;"></section>
+    <button id="back-button" style="display: none;">⬅ Voltar à Página Inicial</button>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Loja Musical RM. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
